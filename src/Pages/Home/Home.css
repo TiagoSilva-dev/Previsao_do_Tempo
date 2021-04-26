@@ -1,0 +1,83 @@
+h1{
+  color: #FFF;
+}
+hr{
+  max-width: 380px;
+  color: #FF9A33;
+  border-color: #FF9A33;
+}
+span{
+  color: #565655;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+  
+}
+.content{
+  align-items: center;
+  text-align: center;
+}
+.content h1{
+  text-align: center;
+}
+.temperaturas{
+  display: flexbox;
+  flex-direction: column;
+}
+.areaTemp{
+  position: relative;
+  background-color: rgba(255,255,255,0.8);
+  height: 200px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+ transition: all cubic-bezier(0.215, 0.610, 0.355, 5);
+}
+.areaTemp span{
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 10px;
+  left: -95px;
+}
+.areaTemp h1{
+  color: #565655;
+}
+.detalhes span{
+  margin-left: 10px;
+  font-weight: bold;
+left: 0px;
+}
+input{
+  width: 388px;
+  height: 35px;
+  margin-left: 37px;
+  border: none;
+  padding: 5px;
+  margin-top: 15px;
+}
+button{
+  position: relative;
+  background-color: #FFF;
+  border: none;
+  left: -40px;
+  height: 25px;
+  top:5px
+}
+.prox{
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: row;
+  display: inline-table;
+  align-items: center;
+  left: 84px;
+  font-size: 12px;
+  margin-left: -14px;
+}
+.temp{
+  color: #FF9A33;
+}
