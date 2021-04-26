@@ -28,7 +28,7 @@
 This project was made using the follow technologies:
 
 - [ReactJS](https://reactjs.org/)
-- [Styled Icons](https://styled-icons.js.org/)
+- [React icons](https://react-icons.github.io/react-icons/)
 - [Axios](https://github.com/axios/axios)
 
 
